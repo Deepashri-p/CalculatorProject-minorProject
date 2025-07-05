@@ -1,0 +1,29 @@
+ body {
+  background-color: #000;
+}
+
+.calculator {
+  border: 2px solid #fff; /* bright outer border */
+ box-shadow: 0 0 30px rgba(255, 165, 0, 0.5); 
+  border-radius: 20px;
+}
+
+input {
+  border: 2px solid #888;  /* brighter input border */
+  border-radius: 12px !important;
+  background-color: #111;
+  color: #fff;
+}
+
+button {
+  font-size: 1.3rem;
+  border: 2px solid #333; /* default subtle border */
+  border-radius: 12px !important;
+  transition: all 0.2s ease;
+}
+
+/* On hover, make the buttons brighter */
+button:hover {
+  border-color: #ffa500; /* orange glow */
+  box-shadow: 0 0 8px #ffa500;
+}
