@@ -3,5 +3,5 @@ body {
 }
 
 input:invalid {
-  border: 2px solid red;
+  border: 2px solid rgb(0, 208, 255);
 }
